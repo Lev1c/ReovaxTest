@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    width: 1520px;
+    width: 1320px;
     margin: auto;
 }
 
@@ -206,13 +206,19 @@ body {
 
 .mainImg-block-half {
     display: flex;
-    width: 50%;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
+.mainImg-block-button-video {
+    height: max-content;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 .mainImg-block-half-two {
-    width: 839px;
+    width: 659px;
     height: 689px;
 }
 
@@ -303,6 +309,7 @@ body {
 
 .about-text-block {
     width: 45%;
+    
 }
 
 .about-title {
